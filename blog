@@ -1,0 +1,5 @@
+$ rails new blog
+$ rails g scaffold Post title:string body:text
+$ rails g scaffold Comments post:string body:text
+$ rake db:migrate
+
